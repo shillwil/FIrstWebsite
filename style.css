@@ -1,0 +1,36 @@
+body {
+    background-image: url("home-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat";
+}
+
+.intro {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+    flex-direction: row;
+    align-content: space-evenly;
+    padding: 2rem;
+    margin: 3rem;
+}
+
+#alex-title {
+    color: white;
+    background-clip:padding-box;
+    /* background-color:  rgba(0, 0, 0, 0.8); */
+    flex-direction: row;
+    align-content:center;
+    text-shadow: 0px 2px 5px black;
+    font-weight: 500;
+    margin-top: 3rem;
+    margin-left: 20px;
+}
+
+#self-image {
+    max-width: 50%;
+    border-radius: 50%;
+    align-content: space-evenly;
+}
